@@ -4,16 +4,20 @@
 
 <script>
 
-/*function calcSurface : calculate the area of a rectangle.
-To calculate the area of a rectangle, we use the formula (length x width).
-In this function, the length is represented by "a", and the width is represented by "b".
-The function returns the result (length x width).*/
-function calcSurface (a,b){
-    return a*b;
+/**
+ * Calculate the area of a rectangle.
+ * @param {number} length - length of the rectangle
+ * @param {number} width - width of the rectangle
+ * @return {number} area - The area of the rectangle
+ */
+
+function calcSurface (length,width,area){
+    area = length*width;
+    return area;
 }
-let lenght = +prompt("Let's calculate the area of a rectangle. Give a length :");
+let length = +prompt("Let's calculate the area of a rectangle. Give a length :");
 let width = +prompt("And now, give a width:");
-    console.log(calcSurface(lenght,width));
+    console.log(calcSurface(length,width));
 
 </script>
 

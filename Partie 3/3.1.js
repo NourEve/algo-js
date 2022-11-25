@@ -12,7 +12,3 @@ for (let elem of arr2) {
   sum += elem;
 }
 console.log(sum);
-
-
-
-//for (let i=0 ; i<n ; i++)

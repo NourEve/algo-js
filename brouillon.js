@@ -1,6 +1,6 @@
-let fruits = ['Apple', 'Banana'];
+function add(a, b) {
+  return a + b;
+}
 
-let newLength = fruits.push('Orange');
-console.log(fruits);
-// ["Apple", "Banana", "Orange"]
+console.log("The sum of 2 and 3 is " + add(2, 3));
 

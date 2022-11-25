@@ -1,18 +1,6 @@
-let arr1 = [1,2,3,4,5];
-sum = 0;
+let fruits = ['Apple', 'Banana'];
 
-for (let elem of arr1) {
-    sum += elem;
-}
-console.log(sum);
+let newLength = fruits.push('Orange');
+console.log(fruits);
+// ["Apple", "Banana", "Orange"]
 
-let arr2 = [100,101,102];
-sum = 0;
-for (let elem of arr2) {
-  sum += elem;
-}
-console.log(sum);
-
-
-
-//for (let i=0 ; i<n ; i++)

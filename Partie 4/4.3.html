@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+function rand10(min, max){
+    return Math.random() * (max - min) + min;
+}
+/**
+ * Create an array with "n" random numbers.
+ * @param {number} n - The lenght of the table.
+ * @param {function} rand10 - Takes a random number between 1 and 10.
+ * @return {table} array - Table with "n" numbers.
+ */
+function multiRand(n){
+    let array = [];
+    for (let i=0; i < n; i++){
+        array.push(rand10(1,10));
+    }
+    return array;
+}
+n = +prompt("Give a number:");
+console.log(multiRand(n));
+</script>
+
+</body>
+</html>

@@ -1,5 +1,12 @@
-/*function calcSurface : calculate the area of a rectangle.
-To calculate the area of a rectangle, we use the formula (length x width).
-In this function, the length is represented by "a", and the width is represented by "b".
-The function returns the result (length x width).*/
+function rand10(min, max){
+    return Math.random() * (max - min) + min;
+}
+function multiRand(n){
+    let array = [];
+    for (let i=0; i < n; i++){
+        array.push(rand10(1,10));
+    }
+    return array;
+}
+console.log(multiRand(5));
 

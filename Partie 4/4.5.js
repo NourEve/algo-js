@@ -1,3 +1,9 @@
+/**
+ * Create a program that calculates the distance between 2 points on a plane.
+ * @param {Object.<number>} [x1, y1] - coordinates of the first point.
+ * @param {Object.<number>} [x2, y2] - coordinates of the second point.
+ * @return {...number} result - the distance between the 2 points.
+ */
 
 function calcDistance ([x1, y1], [x2, y2]) {
     let y = x2 - x1;

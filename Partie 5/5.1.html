@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+function askTvSerie (nameSerie, dateSerie, actor) {
+    let serieObject = {
+        name : nameSerie,
+        date : dateSerie,
+        casting : actor,
+    }
+    return serieObject;
+}
+
+let nameSerie = prompt("What's your favorite series?");
+let dateSerie = prompt("In what year was it released?");
+let actor = prompt("Who are the actors?");
+
+let serie1 = askTvSerie(nameSerie, dateSerie, [actor]);
+    document.write("Name: " + serie1["name"]);
+    document.write("<br/>");
+    document.write("Date: " + serie1["date"]);
+    document.write("<br/>");
+    document.write("Casting: " + serie1["casting"])
+    console.log(serie1);
+</script>
+
+</body>
+</html>
